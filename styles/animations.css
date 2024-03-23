@@ -1,0 +1,71 @@
+@keyframes rotBG{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes animateBackground{
+    0%{background-position:  0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+@keyframes scaleIntroText {
+    0%{ font-size: 4vw}
+    90%{font-size: 8.5vw}
+    92%{font-size: 7.8vw}
+    95%{font-size: 8.2vw}
+    97%{font-size: 7.9vw}
+    99%{font-size: 8.1vw}
+   100%{font-size: 8vw}
+
+    /*0%{transform: scale(2)}
+    90%{transform: scale(3.5);}
+    92%{transform: scale(2.8)}
+    95%{transform: scale(3.2);}
+    97%{transform: scale(2.9)}
+    99%{transform: scale(3.1);}
+    100%{transform: scale(3);}*/
+}
+
+@keyframes screenShake {
+    0% {transform: translate(0, 0) rotate(0deg);  }
+    92%{transform: translate(0, 0) rotate(0deg);}
+    94% { transform: translate(5px, 5px) rotate(5deg); }
+    98% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes flashIntroText{
+    0%{color: white;}
+    89%{color:white;}
+    90%{color:#333333;}
+    94%{color:#333333;}
+    95%{color:white;}
+    96%{color:white;}
+    97%{color:#333333;}
+    98%{color:#333333;}
+    99%{color: white;text-shadow: none;}
+    100%{color: white;text-shadow: #777777 1px 0 10px;}
+
+    /*88%{color: #333333;}
+    88%{color: #333333;}
+    89%{color: white;}
+    92%{color: white;}
+    93%{color: #333333;}
+    95%{color: #333333;}
+    96%{color: white;}
+    99%{color: white;filter: none;}
+    100%{color: white;filter: drop-shadow(0 2px 10px white) contrast(110%)}*/
+}
+
+@keyframes fadeIn 
+{
+    0% {opacity:0;}
+    75%{opacity: 0;}
+    100% {opacity:1;}
+}
+
+@keyframes gradualGlow{
+    0%{filter: none;}
+    100%{filter: drop-shadow(0 2px 10px white) contrast(110%);}
+}

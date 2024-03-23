@@ -1,0 +1,29 @@
+#projPageContainer{
+    margin-top: 5%;
+    min-width: 80%;
+    min-height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#projPageName{
+    display: flex;
+    justify-content: center;
+}
+
+#projPageText{
+    max-width: 30%;
+}
+
+#projPageImg{
+    aspect-ratio: 16 9;
+    max-width: 30%;
+}
+
+#projGroup{
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
